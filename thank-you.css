@@ -1,0 +1,90 @@
+/* thank-you.css */
+html {
+    background: #EC1187 linear-gradient(to bottom right, #EC1187 0%, #FF8D10 100%);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    font-family: "Avenir Next", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 85%;
+    max-width: 640px;
+    margin: 0 auto;
+    padding-top: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.thank-you-container {
+    text-align: center;
+    color: white;
+}
+
+.check {
+    font-size: 80px;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+.sent {
+    font-size: 40px;
+    margin: 0 0 20px 0;
+}
+
+.download-prompt {
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    margin: 0 0 20px 0;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: black;
+    border-radius: 100px;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+    height: 60px;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+.space2, .space3, .space4 {
+    height: 20px;
+}
+
+.tos-privacy {
+    margin-top: 20px;
+}
+
+.tos, .privacy {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 0 5px;
+}
+
+.pulse {
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
